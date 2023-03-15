@@ -64,8 +64,8 @@
 	with differential 
 
 --c
-	select*from Person.PersonPhone where BusinessEntityID = 0119
-	insert into Person.PersonPhone values(0119, '161102' , 2 ,getdate())
+	select*from Person.PersonPhone where BusinessEntityID = 0109
+	insert into Person.PersonPhone values(0109, '120702' , 2 ,getdate())
 
 	backup log AdventureWorks2008R2
 	to disk = 'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Backup\adventure-works-2008r2-oltp.bak'
